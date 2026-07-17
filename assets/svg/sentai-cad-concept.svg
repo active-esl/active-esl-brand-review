@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">Diagrammatic Active-ESL board concept</title>
+  <desc id="desc">A dark technical line illustration based on the broad geometry of an Active-ESL edge-AI board, with rounded lower body, raised top section, side cut-outs, mounting points and representative components.</desc>
+  <rect width="960" height="640" fill="#07111f"/>
+  <g fill="none" stroke="#14283d" stroke-width="1">
+    <path d="M80 80H880M80 160H880M80 240H880M80 320H880M80 400H880M80 480H880M80 560H880"/>
+    <path d="M80 80V560M160 80V560M240 80V560M320 80V560M400 80V560M480 80V560M560 80V560M640 80V560M720 80V560M800 80V560M880 80V560"/>
+  </g>
+  <path d="M365 82H595V151C595 165 607 176 621 176H704C719 176 729 190 724 204L705 253C698 272 712 292 732 292H788C820 292 846 318 846 350V477C846 519 812 553 770 553H190C148 553 114 519 114 477V350C114 318 140 292 172 292H228C248 292 262 272 255 253L236 204C231 190 241 176 256 176H339C353 176 365 165 365 151Z" fill="#0b2941" stroke="#20d6d2" stroke-width="4"/>
+  <g fill="none" stroke="#7557ff" stroke-width="2" opacity=".8">
+    <path d="M212 352H408L454 306H626"/>
+    <path d="M180 386H355L420 451H706"/>
+    <path d="M273 245V329H475L529 275H658"/>
+    <path d="M396 174V254L463 321V476"/>
+    <path d="M524 168V236L585 297V486"/>
+    <path d="M245 468H369L405 504H621"/>
+  </g>
+  <g fill="#102f49" stroke="#20d6d2" stroke-width="2">
+    <rect x="178" y="315" width="190" height="126" rx="8"/>
+    <rect x="391" y="333" width="118" height="92" rx="6"/>
+    <rect x="542" y="320" width="156" height="100" rx="8"/>
+    <rect x="287" y="199" width="115" height="74" rx="5"/>
+    <rect x="446" y="126" width="73" height="55" rx="5"/>
+  </g>
+  <g fill="#7557ff" opacity=".85">
+    <rect x="196" y="333" width="44" height="24" rx="2"/>
+    <rect x="250" y="333" width="44" height="24" rx="2"/>
+    <rect x="304" y="333" width="44" height="24" rx="2"/>
+    <rect x="196" y="369" width="70" height="48" rx="3"/>
+    <rect x="280" y="369" width="68" height="48" rx="3"/>
+    <rect x="410" y="351" width="80" height="56" rx="4"/>
+    <rect x="562" y="341" width="50" height="26" rx="3"/>
+    <rect x="624" y="341" width="54" height="26" rx="3"/>
+    <rect x="562" y="379" width="116" height="22" rx="3"/>
+  </g>
+  <g fill="#07111f" stroke="#b6f23b" stroke-width="4">
+    <circle cx="285" cy="143" r="14"/>
+    <circle cx="675" cy="143" r="14"/>
+    <circle cx="206" cy="486" r="14"/>
+    <circle cx="754" cy="486" r="14"/>
+  </g>
+  <g fill="#07111f" stroke="#20d6d2" stroke-width="3">
+    <rect x="274" y="518" width="92" height="42" rx="4"/>
+    <rect x="389" y="518" width="72" height="42" rx="4"/>
+    <rect x="484" y="518" width="72" height="42" rx="4"/>
+    <rect x="579" y="518" width="106" height="42" rx="4"/>
+  </g>
+  <circle cx="731" cy="361" r="9" fill="#b6f23b"/>
+  <g fill="#f7f9fc" font-family="IBM Plex Sans, sans-serif">
+    <text x="80" y="42" font-size="18" letter-spacing="4">ACTIVE-ESL / EDGE PLATFORM STUDY</text>
+    <text x="80" y="606" font-size="14" opacity=".62">DIAGRAMMATIC CONCEPT &#8212; NOT A PRODUCTION PCB OR SHIPPING PRODUCT</text>
+  </g>
+</svg>
