@@ -325,6 +325,52 @@ main {
   color: var(--muted);
 }
 
+.hero-product-grid {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+}
+
+.product-card--hero {
+  min-height: 0;
+  border-color: rgba(32, 214, 210, 0.35);
+  background:
+    linear-gradient(180deg, rgba(32, 214, 210, 0.08), transparent 42%),
+    var(--carbon-2);
+}
+
+.product-card--hero .clean {
+  margin-top: 1rem;
+}
+
+.lifecycle-panel {
+  padding: 1.5rem 1.55rem;
+  border: 1px solid rgba(117, 87, 255, 0.4);
+  border-radius: 0.75rem;
+  background:
+    linear-gradient(160deg, rgba(117, 87, 255, 0.18), transparent 55%),
+    var(--carbon-2);
+}
+
+.lifecycle-panel h2 {
+  margin-bottom: 0.85rem;
+}
+
+.roadmap-waves {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+.roadmap-waves .number {
+  display: block;
+  margin-bottom: 0.75rem;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  color: var(--lime);
+}
+
 .product-feature {
   display: grid;
   gap: clamp(1.5rem, 4vw, 3.5rem);
@@ -844,6 +890,20 @@ ul.clean li::before {
 .button.primary:hover {
   background: var(--lime);
   color: var(--carbon);
+}
+
+.button-disabled,
+.button-disabled:hover {
+  border-color: rgba(247, 249, 252, 0.22);
+  background: rgba(247, 249, 252, 0.14);
+  color: var(--muted);
+  cursor: not-allowed;
+}
+
+.website-cta .button-disabled,
+.website-cta .button-disabled:hover {
+  background: rgba(247, 249, 252, 0.18);
+  color: var(--cloud);
 }
 
 .button.ghost {

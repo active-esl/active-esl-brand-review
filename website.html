@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Website concept — Active-ESL</title>
-  <meta name="description" content="A proposed customer-facing website direction for Active-ESL.">
+  <meta name="description" content="Application-ready connected platforms from Active-ESL: evaluate, manufacture and support with the Lifecycle Platform.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=Sora:wght@800&family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
@@ -24,176 +24,240 @@
     <nav class="nav" aria-label="Primary">
       <a href="index.html">Review hub</a>
       <a href="website.html" aria-current="page">Website</a>
-      <a href="#capabilities">Capabilities</a>
-      <a href="#product-range">Product range</a>
-      <a href="#platforms">Platforms</a>
-      <a href="#approach">Approach</a>
+      <a href="#why-active-esl">Why Active-ESL</a>
+      <a href="#featured-platforms">Platforms</a>
+      <a href="#lifecycle">Lifecycle</a>
+      <a href="#partners">Partners</a>
+      <a href="#proof">Proof</a>
+      <a href="#roadmap">Roadmap</a>
       <a href="#team">Team</a>
-      <a href="https://active-esl.com/contact/">Contact</a>
+      <a href="#consultation">Book consultation</a>
     </nav>
   </header>
 
   <main id="main">
     <section class="website-hero">
       <div class="website-hero__copy">
-        <p class="kicker">Connected devices / evaluate to manufacture</p>
-        <h1>From evaluation board to volume production.</h1>
+        <p class="kicker">For product companies building connected devices</p>
+        <h1>Build your application, not your platform.</h1>
         <p class="lede">
-          Active-ESL develops a connected embedded board range that works out of
-          the box, can be mass-manufactured for market launch, and is supported
-          with updates across the product lifetime.
+          Active-ESL provides complete connected boards with embedded Linux
+          ready to run. Develop your application, take the same design into
+          manufacture, and keep deployed products secure and supported with the
+          Active-ESL Lifecycle Platform.
         </p>
         <div class="cta-row">
-          <a class="button primary" href="#product-range">Explore the product range</a>
-          <a class="button ghost" href="https://active-esl.com/contact/">Discuss a project</a>
+          <span class="button primary button-disabled" aria-disabled="true">Booking calendar coming soon</span>
+          <a class="button ghost" href="#featured-platforms">See featured platforms</a>
         </div>
-        <p class="image-note">Website and AI image concept for stakeholder review.</p>
+        <p class="image-note">Website concept for stakeholder review. The consultation calendar will be connected when its booking URL is available.</p>
       </div>
     </section>
 
-    <section class="proof-strip" aria-label="Experience and scope">
+    <section class="proof-strip" aria-label="Value summary">
       <div class="proof">
-        <strong>100+ years</strong>
-        <span>Combined leadership experience</span>
+        <strong>One complete board</strong>
+        <span>No customer-designed carrier required</span>
       </div>
       <div class="proof">
-        <strong>Sensor to cloud</strong>
-        <span>Hardware, firmware and services</span>
+        <strong>Application first</strong>
+        <span>Deploy remotely in isolated containers</span>
       </div>
       <div class="proof">
-        <strong>Prototype to production</strong>
-        <span>Certification and industrialisation</span>
+        <strong>Evaluate to volume</strong>
+        <span>Manufacture the platform you developed on</span>
       </div>
       <div class="proof">
-        <strong>Secure by design</strong>
+        <strong>Lifecycle Platform</strong>
         <span>Managed Linux and remote updates</span>
       </div>
     </section>
 
-    <section class="section" id="capabilities">
-      <p class="kicker">Capabilities</p>
-      <h2>Engineering the whole product</h2>
+    <section class="section" id="why-active-esl">
+      <p class="kicker">Why Active-ESL</p>
+      <h2>A production platform without the platform engineering burden</h2>
       <p class="lede">
-        Reduce hand-offs and avoid prototype dead ends. One team can own the
-        critical path from architecture through deployment.
+        Many connected products begin with a compute module, a custom carrier
+        board and a Linux build the customer must integrate and maintain.
+        Active-ESL brings those responsibilities together so your team can focus
+        on the product application.
       </p>
-      <div class="services">
-        <article class="service">
-          <span class="number">01 / HARDWARE</span>
-          <h3>Custom embedded systems</h3>
-          <p>Processor selection, schematics, PCB design, component sourcing and design-for-manufacture.</p>
+      <div class="grid-2">
+        <article class="panel">
+          <h3>Start with working hardware and software</h3>
+          <p>Power on, connect and deploy without first designing a baseboard or becoming a Yocto specialist.</p>
         </article>
-        <article class="service">
-          <span class="number">02 / SOFTWARE</span>
-          <h3>Embedded Linux + firmware</h3>
-          <p>Board support, drivers, applications, diagnostics and maintainable update paths.</p>
+        <article class="panel">
+          <h3>Keep application and platform separate</h3>
+          <p>Your application runs in a container above the maintained board operating system, creating a clear support boundary.</p>
         </article>
-        <article class="service">
-          <span class="number">03 / CONNECTIVITY</span>
-          <h3>Secure connected devices</h3>
-          <p>Wired and wireless integration, fleet management and secure remote software delivery.</p>
+        <article class="panel">
+          <h3>One board, one accountable partner</h3>
+          <p>A complete single-board design reduces duplicated circuitry, connectors and uncertainty about who owns a platform fault.</p>
         </article>
-        <article class="service">
-          <span class="number">04 / INTERFACE</span>
-          <h3>Display + touch integration</h3>
-          <p>High-resolution LCD, capacitive touch and responsive interfaces for demanding environments.</p>
-        </article>
-        <article class="service">
-          <span class="number">05 / PRODUCTION</span>
-          <h3>Industrialisation</h3>
-          <p>Mechanical integration, tooling, certification, assembly support and fulfilment planning.</p>
-        </article>
-        <article class="service">
-          <span class="number">06 / LIFECYCLE</span>
-          <h3>Product refresh + migration</h3>
-          <p>Replace fragile development stacks, address obsolescence and move products onto supportable platforms.</p>
+        <article class="panel">
+          <h3>Plan security across the deployed lifetime</h3>
+          <p>The Lifecycle Platform helps address vulnerabilities without building an embedded security team from scratch.</p>
         </article>
       </div>
     </section>
 
-    <section class="section" id="product-range">
-      <p class="kicker">Proposed product range</p>
-      <h2>One family. Eight targeted boards.</h2>
+    <section class="section" id="featured-platforms">
+      <p class="kicker">Featured platforms</p>
+      <h2>Start with two production-minded boards</h2>
       <p class="lede">
-        Each board is designed as a single-board solution: evaluate quickly,
-        then manufacture the same design in volume. Where a customer needs a
-        different form factor or I/O set, we customise the hardware and
-        firmware through consultancy.
+        EDGE LITE and EDGE GATEWAY are the public focus for evaluation and
+        early customer conversations. Both are single-board designs intended to
+        move from development into volume manufacture.
       </p>
-      <div class="product-grid">
-        <article class="product-card">
-          <span class="number">HANDHELD</span>
-          <h3>EDGE TABLET</h3>
-          <p class="product-soc">i.MX 8M Mini</p>
-          <p>10.1&quot; multitouch tablet with dual cameras, Wi-Fi 6 tri-radio and USB-C / Qi charging for field and care workflows.</p>
-        </article>
-        <article class="product-card">
-          <span class="number">HANDHELD PRO</span>
-          <h3>EDGE FOLD PRO</h3>
-          <p class="product-soc">i.MX 8M Plus · 2.3 TOPS</p>
-          <p>13&quot; AMOLED foldable-class handheld with stronger NPU, USB 3 and higher-resolution cameras for premium HMI use.</p>
-        </article>
-        <article class="product-card">
-          <span class="number">COMPUTE</span>
-          <h3>EDGE PI</h3>
-          <p class="product-soc">i.MX 8M Mini</p>
-          <p>Raspberry Pi–compatible industrial compute board with 40-pin header, Mini HDMI and USB Type-A for rapid migration from prototypes.</p>
-        </article>
-        <article class="product-card">
-          <span class="number">COMPUTE PRO</span>
-          <h3>EDGE PI PRO</h3>
-          <p class="product-soc">i.MX 8M Plus · 2.3 TOPS</p>
-          <p>Pro Pi-compatible platform with USB 3, neural acceleration and dual camera interfaces for higher-performance designs.</p>
-        </article>
-        <article class="product-card">
-          <span class="number">LOW POWER</span>
-          <h3>EDGE LP</h3>
-          <p class="product-soc">i.MX 93 · 0.5 TOPS</p>
-          <p>Battery-focused low-power board for always-available edge AI, sensing and scheduled cloud updates.</p>
-        </article>
-        <article class="product-card">
-          <span class="number">BASELINE</span>
+      <div class="hero-product-grid">
+        <article class="product-card product-card--hero">
+          <span class="number">WAVE 1 / BASELINE</span>
           <h3>EDGE LITE</h3>
           <p class="product-soc">i.MX 8M Mini</p>
-          <p>Compact baseline board for cost-sensitive connected products that still need industrial temperature support.</p>
+          <p>
+            Compact connected board for cost-sensitive products that still need
+            industrial temperature options, Wi-Fi 6 tri-radio capability and a
+            clear path from evaluation to manufacture.
+          </p>
+          <ul class="clean">
+            <li>USB-C connected baseline platform</li>
+            <li>Wi-Fi 6, Bluetooth and 802.15.4 options</li>
+            <li>MIPI display and camera interfaces</li>
+            <li>Designed for volume depopulation and customisation</li>
+          </ul>
         </article>
-        <article class="product-card">
-          <span class="number">GATEWAY</span>
+        <article class="product-card product-card--hero">
+          <span class="number">WAVE 1 / GATEWAY</span>
           <h3>EDGE GATEWAY</h3>
           <p class="product-soc">i.MX 8M Mini</p>
-          <p>Communications gateway with dual Gigabit Ethernet, M.2 LTE, mPCIe radio expansion and PoE+ options.</p>
-        </article>
-        <article class="product-card">
-          <span class="number">GATEWAY PRO</span>
-          <h3>EDGE GATEWAY PRO</h3>
-          <p class="product-soc">i.MX 8M Plus</p>
-          <p>Pro gateway with TSN Ethernet, 5G-capable M.2 expansion and the headroom for denser edge workloads.</p>
+          <p>
+            Communications gateway for products that need flexible wired and
+            wireless connectivity without redesigning the board every time a
+            radio technology changes.
+          </p>
+          <ul class="clean">
+            <li>Dual Gigabit Ethernet</li>
+            <li>M.2 cellular expansion</li>
+            <li>mini-PCIe for low-speed radios</li>
+            <li>PoE+ options for industrial installs</li>
+          </ul>
         </article>
       </div>
-      <p class="image-note">
-        Proposed family from the Active-ESL product roadmap. Availability,
-        pricing and software support are not claimed as shipping today.
-      </p>
+      <p class="image-note">Featured platforms for website and sales conversations. Availability is not claimed as shipping today.</p>
     </section>
 
-    <section class="section product-feature" id="platforms">
-      <img src="assets/images/active-esl-edge-product.png" alt="AI-generated concept of a rugged industrial edge gateway">
-      <div>
-        <p class="kicker">Platforms</p>
-        <h2>Start with a production path, not a disposable prototype</h2>
+    <section class="section product-feature" id="lifecycle">
+      <div class="lifecycle-panel">
+        <p class="kicker">Core software pillar</p>
+        <h2>Active-ESL Lifecycle Platform</h2>
         <p>
-          Customers can develop differentiating software on a standard board
-          while hardware, secure Linux and lifetime updates are already on a
-          manufacturable path.
+          Hardware alone is not enough for connected products. The Lifecycle
+          Platform is the managed software layer that keeps board images,
+          security updates and remote application delivery on a supportable
+          path across the product lifetime.
         </p>
         <ul class="clean">
-          <li>Evaluate out of the box on a standard Active-ESL board</li>
-          <li>Mass-manufacture the same design for volume launch</li>
-          <li>Foundries.io path for secure Linux and remote updates</li>
-          <li>Consultancy when the product needs custom hardware or firmware</li>
+          <li>Board-specific embedded Linux ready to run</li>
+          <li>Secure boot and remote update path for OS and containers</li>
+          <li>Customer applications isolated above the maintained base platform</li>
+          <li>Optional paid maintenance during the agreed product lifetime</li>
+          <li>Customers may still choose an alternative OS where required</li>
         </ul>
-        <p class="image-note">AI-generated product concept; not a photograph of a shipping enclosure.</p>
+        <p class="image-note">Service packaging and commercial terms remain subject to confirmation.</p>
       </div>
+      <div>
+        <p class="kicker">What customers get</p>
+        <h3>Develop the product. We maintain the platform.</h3>
+        <p>
+          Product companies can concentrate on differentiating software while
+          Active-ESL owns the board support package, platform updates and the
+          route into manufacture.
+        </p>
+        <div class="cta-row">
+          <span class="button primary button-disabled" aria-disabled="true">Booking calendar coming soon</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="partners">
+      <p class="kicker">Technology partners</p>
+      <h2>Built with established embedded-platform partners</h2>
+      <p class="lede">
+        Active-ESL is an NXP and Foundries.io partner. These relationships
+        strengthen the route from processor platform and board support through
+        secure software delivery and long-term product maintenance.
+      </p>
+      <div class="grid-2">
+        <article class="panel">
+          <h3>NXP partner</h3>
+          <p>Our product family is built around NXP i.MX application processors, providing practical steps in performance, power, connectivity and edge-AI capability.</p>
+        </article>
+        <article class="panel">
+          <h3>Foundries.io partner</h3>
+          <p>Our Lifecycle Platform uses the Foundries.io secure Linux and over-the-air update path for maintainable board software and remote container delivery.</p>
+        </article>
+      </div>
+      <p class="image-note">Specific platform support and commercial service terms are confirmed for each customer programme.</p>
+    </section>
+
+    <section class="section" id="proof">
+      <p class="kicker">Application evidence</p>
+      <h2>Compact voice and edge-AI product</h2>
+      <p class="lede">
+        Anonymised from Active-ESL engineering work: a small-form-factor
+        connected device for voice interaction and edge intelligence.
+      </p>
+      <div class="grid-2">
+        <article class="panel">
+          <h3>What the product needed</h3>
+          <p>Microphone and speaker, local sensing, Wi-Fi connectivity and cellular expansion in a compact enclosure, with a production-ready software path rather than a disposable prototype.</p>
+        </article>
+        <article class="panel">
+          <h3>What the platform provided</h3>
+          <p>An i.MX 8M Mini single-board core with onboard Wi-Fi 6, M.2 cellular expansion, radar sensing support and a board-specific Linux image intended for evaluation and volume manufacture.</p>
+        </article>
+        <article class="panel">
+          <h3>Why it matters commercially</h3>
+          <p>Product teams can prove the application experience on a complete board, then manufacture or customise that same design instead of restarting after a hobbyist or module-plus-carrier prototype.</p>
+        </article>
+        <article class="panel">
+          <h3>What we do not claim here</h3>
+          <p>Customer names, shipping volumes and availability dates are omitted. This is engineering evidence for the Active-ESL approach, not a named case study release.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="roadmap">
+      <p class="kicker">Product roadmap</p>
+      <h2>A wider family, introduced in phases</h2>
+      <p class="lede">
+        Beyond the Wave 1 focus, the proposed Active-ESL family covers
+        Pi-compatible compute, low-power AI, handheld and gateway-pro tiers.
+        These remain roadmap items until specifications and support are
+        confirmed.
+      </p>
+      <div class="roadmap-waves">
+        <article class="panel">
+          <span class="number">WAVE 2</span>
+          <h3>Compute migration</h3>
+          <p class="product-soc">EDGE PI · EDGE PI PRO</p>
+          <p>Industrial, supportable alternatives for teams that have proven a concept on Raspberry Pi–class hardware and need a manufacturable next step.</p>
+        </article>
+        <article class="panel">
+          <span class="number">WAVE 3</span>
+          <h3>Handheld and low power</h3>
+          <p class="product-soc">EDGE TABLET · EDGE FOLD PRO · EDGE LP</p>
+          <p>Battery-aware and HMI-led platforms for mobile, field and long-life sensing or display use cases.</p>
+        </article>
+        <article class="panel">
+          <span class="number">WAVE 3</span>
+          <h3>Gateway Pro</h3>
+          <p class="product-soc">EDGE GATEWAY PRO</p>
+          <p>Higher-connectivity gateway tier with stronger Ethernet and expansion options for denser edge workloads.</p>
+        </article>
+      </div>
+      <p class="image-note">Roadmap SKUs are proposed. No pricing or ship dates are published on this concept site.</p>
     </section>
 
     <section class="section" id="approach">
@@ -202,44 +266,72 @@
       <div class="process">
         <div class="step">
           <b>01</b>
-          <strong>Discover</strong>
-          <span>Requirements, risks, constraints and the production target.</span>
+          <strong>Evaluate</strong>
+          <span>Power up a complete board with working software and a clear production intent.</span>
         </div>
         <div class="step">
           <b>02</b>
           <strong>Develop</strong>
-          <span>Hardware, software and mechanical work progress together.</span>
+          <span>Build the application in a container above the maintained platform.</span>
         </div>
         <div class="step">
           <b>03</b>
-          <strong>Validate</strong>
-          <span>Test performance, reliability, security and compliance.</span>
+          <strong>Industrialise</strong>
+          <span>Depopulate, customise or certify the same design for volume.</span>
         </div>
         <div class="step">
           <b>04</b>
-          <strong>Industrialise</strong>
-          <span>Tooling, sourcing, assembly and certification readiness.</span>
+          <strong>Manufacture</strong>
+          <span>Produce a single-board product without restarting from a prototype dead end.</span>
         </div>
         <div class="step">
           <b>05</b>
           <strong>Support</strong>
-          <span>Updates, diagnostics, refresh and product lifecycle ownership.</span>
+          <span>Keep the Lifecycle Platform current across the agreed product lifetime.</span>
         </div>
       </div>
+    </section>
+
+    <section class="section" id="ecosystem">
+      <p class="kicker">Reusable ecosystem</p>
+      <h2>Shared building blocks across the board family</h2>
+      <p class="lede">
+        A common expansion approach reduces repeated engineering and helps
+        customers assemble the right demonstration quickly.
+      </p>
+      <div class="grid-2">
+        <article class="panel">
+          <h3>Display, camera and audio</h3>
+          <p>Planned common interfaces support reusable display sizes, cameras and audio modules across compatible evaluation platforms.</p>
+        </article>
+        <article class="panel">
+          <h3>Adaptable communications</h3>
+          <p>M.2 and mini-PCIe options allow cellular, LoRa and other radio technologies to evolve without redesigning the whole product.</p>
+        </article>
+        <article class="panel">
+          <h3>Processor performance ladder</h3>
+          <p>i.MX 8M Mini, i.MX 8M Plus and i.MX 9 platforms provide practical steps in cost, connectivity, power and edge-AI capability.</p>
+        </article>
+        <article class="panel">
+          <h3>Migration from prototypes</h3>
+          <p>Pi-compatible options are intended to move proven concepts onto an industrial, supportable and manufacturable foundation.</p>
+        </article>
+      </div>
+      <p class="image-note">Interfaces and processor options remain subject to product qualification. NXP and Foundries.io are confirmed partners; other ecosystem relationships are not claimed here.</p>
     </section>
 
     <section class="section">
       <p class="kicker">Applications</p>
       <h2>Built for demanding connected products</h2>
       <ul class="sectors">
-        <li>Social care systems</li>
-        <li>EV charging</li>
-        <li>Satellite communications</li>
+        <li>Edge AI</li>
         <li>Industrial equipment</li>
+        <li>EV charging</li>
+        <li>Social care systems</li>
+        <li>Connected displays</li>
         <li>Medical products</li>
         <li>Retail systems</li>
-        <li>Connected displays</li>
-        <li>Edge AI</li>
+        <li>Resilient communications</li>
       </ul>
     </section>
 
@@ -262,20 +354,23 @@
       </div>
     </section>
 
-    <section class="section website-cta">
+    <section class="section website-cta" id="consultation">
       <p class="kicker">Start the right way</p>
-      <h2>Bring us the product challenge—not just a narrow work package.</h2>
-      <p>We’ll help define a credible route from concept to manufacture and deployment.</p>
+      <h2>Bring the product challenge, not just a narrow work package.</h2>
+      <p>
+        Book a product-platform consultation and we will help define a credible
+        route from evaluation through manufacture and lifecycle support.
+      </p>
       <div class="cta-row">
-        <a class="button primary" href="https://active-esl.com/contact/">Discuss a project</a>
-        <a class="button ghost" href="review.html">Review this direction</a>
+        <span class="button primary button-disabled" aria-disabled="true">Booking calendar coming soon</span>
+        <a class="button ghost" href="https://active-esl.com/contact/">Contact us meanwhile</a>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>Draft website concept combining active-esl.com positioning with the proposed Active-ESL product range.</p>
-    <p>Customer-facing brand: Active-ESL · Legal entity: Active Edge Solutions Limited</p>
+    <p>Draft website concept for product companies: featured Wave 1 platforms, Lifecycle Platform, anonymised evidence and phased roadmap.</p>
+    <p>Customer-facing brand: Active-ESL · Legal entity: Active Edge Solutions Limited · No public pricing on this concept.</p>
   </footer>
 </body>
 </html>
