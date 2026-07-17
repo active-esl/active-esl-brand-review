@@ -21,6 +21,45 @@ html {
   scroll-behavior: smooth;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+:focus {
+  outline: none;
+}
+
+:focus-visible {
+  outline: 2px solid var(--signal);
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  left: var(--pad);
+  top: 0.75rem;
+  z-index: 100;
+  padding: 0.65rem 0.9rem;
+  border-radius: 0.35rem;
+  background: var(--signal);
+  color: var(--carbon);
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 0.82rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transform: translateY(-150%);
+}
+
+.skip-link:focus,
+.skip-link:focus-visible {
+  transform: translateY(0);
+  outline: 2px solid var(--lime);
+  outline-offset: 3px;
+}
+
 body {
   margin: 0;
   min-height: 100vh;
@@ -101,7 +140,7 @@ svg {
 .nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.35rem 1rem;
+  gap: 0.15rem 0.65rem;
   font-family: "Space Grotesk", sans-serif;
   font-size: 0.8rem;
   letter-spacing: 0.06em;
@@ -109,6 +148,10 @@ svg {
 }
 
 .nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  padding: 0.35rem 0.4rem;
   color: var(--muted);
   text-decoration: none;
 }
@@ -314,7 +357,6 @@ main {
 .website-cta {
   padding: clamp(2rem, 6vw, 4rem);
   border-radius: 0.75rem;
-  background: var(--violet);
 }
 
 .website-cta h2 {
@@ -412,8 +454,11 @@ h3 {
   border-color: transparent;
 }
 
-.panel.violet {
-  background: var(--violet);
+.panel.violet,
+.website-cta {
+  /* Darker Edge Violet surface so Cloud / Lime text meets WCAG AA */
+  background: #4a2fd4;
+  color: var(--cloud);
   border-color: transparent;
 }
 
@@ -421,6 +466,54 @@ h3 {
 .panel.violet h3 {
   color: inherit;
   opacity: 0.85;
+}
+
+.panel.cyan .button.ghost {
+  color: var(--carbon);
+  border-color: rgba(7, 17, 31, 0.4);
+}
+
+.panel.cyan .button.ghost:hover {
+  color: var(--carbon);
+  border-color: var(--carbon);
+  background: rgba(7, 17, 31, 0.08);
+}
+
+.panel.cyan .button.ghost:focus-visible,
+.panel.cyan a:focus-visible {
+  outline-color: var(--carbon);
+}
+
+.panel.violet .kicker,
+.website-cta .kicker {
+  color: var(--lime);
+}
+
+.panel.violet .button.ghost,
+.website-cta .button.ghost {
+  color: var(--cloud);
+  border-color: rgba(247, 249, 252, 0.55);
+}
+
+.panel.violet .button.ghost:hover,
+.website-cta .button.ghost:hover {
+  color: var(--lime);
+  border-color: var(--lime);
+}
+
+.website-cta .button.primary {
+  background: var(--lime);
+  color: var(--carbon);
+}
+
+.website-cta .button.primary:hover {
+  background: var(--cloud);
+  color: var(--carbon);
+}
+
+.website-cta .button.primary:focus-visible,
+.panel.violet .button.primary:focus-visible {
+  outline-color: var(--lime);
 }
 
 .panel p:last-child,
