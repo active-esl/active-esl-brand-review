@@ -1,6 +1,6 @@
-# Active ESL — public brand review
+# Active-ESL — public brand review
 
-Public GitHub Pages stakeholder pack for reviewing the proposed Active ESL
+Public GitHub Pages stakeholder pack for reviewing the proposed Active-ESL
 brand direction.
 
 This repository contains only the static review site and approved concept
