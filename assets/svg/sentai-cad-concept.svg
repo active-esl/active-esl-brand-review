@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
-  <title id="title">Diagrammatic Active-ESL board concept</title>
+  <title id="title">Active-ESL edge platform</title>
   <desc id="desc">A dark technical line illustration based on the broad geometry of an Active-ESL edge-AI board, with rounded lower body, raised top section, side cut-outs, mounting points and representative components.</desc>
   <rect width="960" height="640" fill="#07111f"/>
   <g fill="none" stroke="#14283d" stroke-width="1">
@@ -47,7 +47,6 @@
   </g>
   <circle cx="731" cy="361" r="9" fill="#b6f23b"/>
   <g fill="#f7f9fc" font-family="IBM Plex Sans, sans-serif">
-    <text x="80" y="42" font-size="18" letter-spacing="4">ACTIVE-ESL / EDGE PLATFORM STUDY</text>
-    <text x="80" y="606" font-size="14" opacity=".62">DIAGRAMMATIC CONCEPT &#8212; NOT A PRODUCTION PCB OR SHIPPING PRODUCT</text>
+    <text x="80" y="42" font-size="18" letter-spacing="4">ACTIVE-ESL / EDGE PLATFORM</text>
   </g>
 </svg>
