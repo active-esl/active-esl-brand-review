@@ -387,10 +387,14 @@ main {
 
 .customer-hero__visual img,
 .page-hero__visual img {
+  display: block;
   width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
   border: 1px solid var(--line);
   border-radius: 0.75rem;
   background: var(--carbon-2);
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.28);
 }
 
 .breadcrumb {
