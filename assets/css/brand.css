@@ -284,6 +284,47 @@ main {
   color: var(--muted);
 }
 
+.product-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+}
+
+.product-card {
+  min-height: 12.5rem;
+  padding: 1.25rem 1.3rem;
+  border: 1px solid var(--line);
+  border-radius: 0.75rem;
+  background: var(--carbon-2);
+}
+
+.product-card .number {
+  display: block;
+  margin-bottom: 0.85rem;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  color: var(--lime);
+}
+
+.product-card h3 {
+  margin-bottom: 0.35rem;
+}
+
+.product-soc {
+  margin: 0 0 0.75rem;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--signal);
+}
+
+.product-card p:last-child {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
 .product-feature {
   display: grid;
   gap: clamp(1.5rem, 4vw, 3.5rem);
