@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" role="img" aria-label="Active-ESL edge mark">
+  <!-- Primary colour symbol (Michael lockup family). Diamond + chevrons + two arcs. Not the 3-orbit concept. -->
+  <path d="M110 23.467L174.533 88L110 152.533L45.467 88L110 23.467Z" fill="#07111F" stroke="#F7F9FC" stroke-width="7.333"/>
+  <path d="M77 54.267L115.133 88L77 121.733M110.733 54.267L148.867 88L110.733 121.733" fill="none" stroke="url(#ae-edge-chevrons)" stroke-width="9.533"/>
+  <path d="M18.333 51.333C64.533 8.8 158.4 14.667 202.4 57.2M18.333 124.667C67.467 165.733 159.867 161.333 202.4 118.8" fill="none" stroke="url(#ae-edge-arcs)" stroke-width="5.867"/>
+  <path d="M27.667 51.333L18.333 42L9 51.333L18.333 60.667L27.667 51.333Z" fill="#20D6D2"/>
+  <path d="M211.734 118.8L202.4 109.466L193.066 118.8L202.4 128.134L211.734 118.8Z" fill="#B6F23B"/>
+  <defs>
+    <linearGradient id="ae-edge-chevrons" x1="77" y1="54.267" x2="144.332" y2="125.99" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#20D6D2"/>
+      <stop offset="0.52" stop-color="#7557FF"/>
+      <stop offset="1" stop-color="#B6F23B"/>
+    </linearGradient>
+    <linearGradient id="ae-edge-arcs" x1="18.333" y1="22.215" x2="142.088" y2="196.121" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#20D6D2"/>
+      <stop offset="0.52" stop-color="#7557FF"/>
+      <stop offset="1" stop-color="#B6F23B"/>
+    </linearGradient>
+  </defs>
+</svg>
