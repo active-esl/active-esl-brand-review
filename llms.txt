@@ -1,0 +1,32 @@
+# Active-ESL
+
+> Application-ready connected embedded platforms. Build your application, not your platform.
+
+- Site: https://active-esl.com/
+- Contact: https://active-esl.com/contact.html
+- Email: info@active-esl.com
+- Legal entity: Active-Edge Solutions Ltd (company number 14105473)
+
+## Products
+
+- EDGE LITE — compact i.MX 8M Mini connected platform
+- EDGE GATEWAY — adaptable multi-radio communications platform
+- Roadmap: EDGE RT / Zephyr (i.MX RT + Mender OTA), EDGE PI, tablet/HMI and low-power variants
+
+## Software
+
+- Lifecycle Platform: Build · Deploy · Sustain
+- Application processors: Yocto/OpenEmbedded Linux via FoundriesFactory / Linux microPlatform path
+- MCU / i.MX RT: Zephyr with secure OTA updates using Mender
+
+## Case studies
+
+- Compact voice and edge AI
+- Adaptable communications
+- Distributed motorsport sensing
+
+## Optional
+
+- Brand guidelines (noindex): https://active-esl.com/brand/
+- Privacy: https://active-esl.com/privacy.html
+- Sitemap: https://active-esl.com/sitemap.xml
