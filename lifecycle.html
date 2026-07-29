@@ -2,10 +2,11 @@
 <html lang="en-GB">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Lifecycle Platform — Active-ESL</title><meta name="description" content="Build, Deploy and Sustain connected products with board-specific Linux, secure delivery and long-term support from Active-ESL.">
+  <title>Lifecycle Platform — Active-ESL</title>
+  <meta name="description" content="Build, Deploy and Sustain connected products with Yocto/Linux and Zephyr paths, secure OTA delivery and long-term support from Active-ESL.">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=Sora:wght@800&family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/brand.css?v=20260729d"><link rel="icon" href="assets/svg/signal-aperture.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/brand.css?v=20260729e"><link rel="icon" href="assets/svg/signal-aperture.svg" type="image/svg+xml">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -15,7 +16,7 @@
       <div class="page-hero__copy">
         <p class="breadcrumb"><a href="index.html">Home</a> / Lifecycle Platform</p>
         <p class="kicker">Build · Deploy · Sustain</p><h1>Develop the product. We maintain the platform.</h1>
-        <p class="lede">The Active-ESL Lifecycle Platform combines board-specific embedded Linux, secure remote delivery and an agreed maintenance path so product teams can focus on their application.</p>
+        <p class="lede">The Active-ESL Lifecycle Platform maintains board-specific Linux and Zephyr software with secure remote delivery, so product teams can focus on the application rather than the platform team.</p>
         <div class="cta-row"><a class="button primary" href="https://calendly.com/gary-turner-active-esl/30min" target="_blank" rel="noopener noreferrer">Discuss lifecycle requirements</a></div>
       </div>
       <div class="page-hero__visual"><img src="assets/images/active-esl-lifecycle-fleet.webp" width="960" height="640" fetchpriority="high" alt="Connected Active-ESL platforms under lifecycle management"></div>
@@ -27,12 +28,12 @@
         <article class="tier">
           <span class="number">01 / BUILD</span><h3>Production foundation</h3>
           <p>Start with a board-specific software baseline that is ready for application development and industrialisation.</p>
-          <ul class="clean"><li>Board support package</li><li>Embedded Linux image</li><li>Drivers and core diagnostics</li><li>Container application pattern</li><li>Manufacturing-image definition</li></ul>
+          <ul class="clean"><li>Board support package</li><li>Yocto/Linux or Zephyr baseline</li><li>Drivers and core diagnostics</li><li>Container or firmware application pattern</li><li>Manufacturing-image definition</li></ul>
         </article>
         <article class="tier tier--featured">
           <span class="number">02 / DEPLOY</span><h3>Managed delivery</h3>
           <p>Add secure remote platform and application delivery for connected fleets.</p>
-          <ul class="clean"><li>Secure boot path</li><li>Remote OS updates</li><li>Remote container delivery</li><li>Fleet release workflow</li><li>Platform/application separation</li></ul>
+          <ul class="clean"><li>Secure boot path</li><li>Linux OTA and containers (Foundries path)</li><li>Zephyr OTA (Mender path)</li><li>Fleet release workflow</li><li>Platform/application separation</li></ul>
         </article>
         <article class="tier">
           <span class="number">03 / SUSTAIN</span><h3>Lifecycle ownership</h3>
@@ -40,30 +41,73 @@
           <ul class="clean"><li>Security update integration</li><li>Release testing</li><li>Long-term board maintenance</li><li>Obsolescence and migration planning</li><li>Custom response and support terms</li></ul>
         </article>
       </div>
-      </section>
+    </section>
+
+    <section class="section">
+      <p class="kicker">Software paths</p>
+      <h2>One lifecycle model. Two maintained OS stacks.</h2>
+      <p class="lede">Silicon class drives the stack: application processors run maintained Linux; MCUs and i.MX RT crossover boards run Zephyr with a matching OTA path.</p>
+      <div class="grid-2">
+        <article class="panel">
+          <h3>Yocto / embedded Linux</h3>
+          <p>EDGE LITE and EDGE GATEWAY programmes use a customised Yocto/OpenEmbedded platform so you can develop on the board you will manufacture—without standing up an internal Yocto and platform-security team for the base system.</p>
+          <ul class="clean">
+            <li>Board-specific Linux images for evaluation and volume</li>
+            <li>Customer applications in containers above the maintained base</li>
+            <li>FoundriesFactory and Linux microPlatform integration path</li>
+            <li>Secure remote system and container delivery</li>
+          </ul>
+          <div class="cta-row"><a class="button ghost" href="products.html">See EDGE platforms</a></div>
+        </article>
+        <article class="panel">
+          <h3>Zephyr / MCU and i.MX RT</h3>
+          <p>Companion sensors, controllers and forthcoming i.MX RT boards use Zephyr where real-time behaviour, power and constrained footprints matter more than a full Linux application environment.</p>
+          <ul class="clean">
+            <li>Zephyr for MCU and crossover programmes</li>
+            <li>i.MX RT board range on the product roadmap</li>
+            <li>Secure OTA updates using Mender</li>
+            <li>Fits sensing nodes, gateways’ companion MCUs and lean connected products</li>
+          </ul>
+          <div class="cta-row"><a class="button ghost" href="products.html">See product roadmap</a></div>
+        </article>
+      </div>
+    </section>
 
     <section class="section product-feature">
       <div>
-        <p class="kicker">Clear support boundary</p><h2>Your application remains yours</h2>
-        <p>The customer application runs in a container above the maintained base system. Active-ESL owns the agreed board and platform layer; your team owns the differentiating application.</p>
+        <p class="kicker">When to choose which</p>
+        <h2>Match the OS to the workload</h2>
+        <p>Choose Linux when you need rich networking, containers, multimedia or a full userspace. Choose Zephyr when the product is MCU-class, hard real-time, battery-led or too small for a Linux footprint—then keep the same Build, Deploy and Sustain ownership model.</p>
+      </div>
+      <div class="panel">
+        <h3>Your application remains yours</h3>
+        <p>On Linux, the customer application runs in a container above the maintained base. On Zephyr, your firmware stays distinct from the agreed board and update path. Active-ESL owns the platform layer you subscribe to; your team owns the differentiating product software.</p>
+      </div>
+    </section>
+
+    <section class="section product-feature">
+      <div>
+        <p class="kicker">Clear support boundary</p>
+        <h2>Partners behind the delivery path</h2>
+        <p>Lifecycle delivery uses proven open platforms so updates and maintenance stay practical across the product lifetime you agree with us.</p>
       </div>
       <div class="panel">
         <h3>Foundries.io technology partner</h3>
-        <p>The Lifecycle Platform is designed to integrate FoundriesFactory and the Linux microPlatform for maintainable Linux images and secure remote system and container delivery.</p>
-        </div>
+        <p>For Linux programmes, the Lifecycle Platform is designed to integrate FoundriesFactory and the Linux microPlatform for maintainable images and secure remote system and container delivery.</p>
+      </div>
     </section>
 
     <section class="section">
       <p class="kicker">Why it matters</p><h2>Connected-product security is an ongoing responsibility</h2>
       <div class="spec-grid">
-        <div class="spec-item"><strong>Reduce specialist burden</strong><span>Avoid building an internal Yocto and platform-security team solely to maintain the base system.</span></div>
+        <div class="spec-item"><strong>Reduce specialist burden</strong><span>Avoid building an internal Yocto, Zephyr-platform or security team solely to maintain the base system.</span></div>
         <div class="spec-item"><strong>Deliver critical fixes</strong><span>Maintain a route for tested software and security updates to devices already in the field.</span></div>
-        <div class="spec-item"><strong>Keep releases controlled</strong><span>Separate board-platform releases from customer application releases.</span></div>
+        <div class="spec-item"><strong>Keep releases controlled</strong><span>Separate board-platform releases from customer application or firmware releases.</span></div>
         <div class="spec-item"><strong>Plan the end of support</strong><span>Define product lifetime, migration triggers and responsibilities before deployment.</span></div>
       </div>
     </section>
 
-    <section class="section website-cta"><p class="kicker">Lifecycle planning</p><h2>Define support before devices reach the field.</h2><p>We will map the board, application, update, compliance and lifetime requirements into the right Build, Deploy and Sustain scope.</p><div class="cta-row"><a class="button primary" href="https://calendly.com/gary-turner-active-esl/30min" target="_blank" rel="noopener noreferrer">Discuss lifecycle requirements</a></div></section>
+    <section class="section website-cta"><p class="kicker">Lifecycle planning</p><h2>Define support before devices reach the field.</h2><p>We will map the board, OS path, application, update, compliance and lifetime requirements into the right Build, Deploy and Sustain scope.</p><div class="cta-row"><a class="button primary" href="https://calendly.com/gary-turner-active-esl/30min" target="_blank" rel="noopener noreferrer">Discuss lifecycle requirements</a></div></section>
   </main>
   <footer class="customer-footer"><div class="customer-footer__links"><a href="index.html">Home</a><a href="products.html">Products</a><a href="lifecycle.html">Lifecycle Platform</a><a href="applications.html">Applications</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a></div><p>Active-ESL is the customer-facing brand of Active-Edge Solutions Ltd.</p><p><a href="#top">Back to top</a></p></footer>
 <script src="assets/js/site.js" defer></script>
