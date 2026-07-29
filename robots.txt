@@ -3,3 +3,5 @@ Allow: /
 Disallow: /brand/
 
 # Customer site may be indexed; brand guidelines pack must not.
+
+Sitemap: https://active-esl.com/sitemap.xml

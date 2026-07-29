@@ -566,6 +566,18 @@ main {
   color: var(--muted);
 }
 
+.customer-footer__legal {
+  margin: 0 0 0.85rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.55;
+  max-width: 42rem;
+}
+
+.customer-footer__legal a {
+  color: var(--signal);
+}
+
 .product-feature {
   display: grid;
   gap: clamp(1.5rem, 4vw, 3.5rem);
