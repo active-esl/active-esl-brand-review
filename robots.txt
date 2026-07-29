@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /brand/
+
+# Customer site may be indexed; brand guidelines pack must not.
