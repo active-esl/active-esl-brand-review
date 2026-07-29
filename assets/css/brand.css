@@ -395,7 +395,15 @@ main {
 
 .customer-hero__copy,
 .page-hero__copy {
+  min-width: 0;
   max-width: 43rem;
+}
+
+.customer-hero__copy h1,
+.page-hero__copy h1 {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .customer-hero__visual img,
@@ -651,7 +659,7 @@ h3 {
 h1 {
   margin: 0 0 1rem;
   font-size: clamp(2.25rem, 5vw, 3.5rem);
-  max-width: 16ch;
+  max-width: min(16ch, 100%);
 }
 
 h2 {
