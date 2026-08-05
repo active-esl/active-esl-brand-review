@@ -1320,3 +1320,122 @@ ul.clean li::before {
     grid-template-columns: 1fr;
   }
 }
+
+/* Insights / blog */
+.insight-list {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.insight-card {
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--line);
+}
+
+.insight-card:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.insight-card h2 {
+  margin: 0.35rem 0 0.75rem;
+  font-family: "Sora", sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.4rem, 2.4vw, 1.85rem);
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.insight-card h2 a {
+  color: var(--cloud);
+  text-decoration: none;
+}
+
+.insight-card h2 a:hover {
+  color: var(--signal);
+}
+
+.insight-card__meta {
+  margin: 0;
+  color: var(--signal);
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 0.82rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.insight-article {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: clamp(2rem, 5vw, 3.5rem) var(--pad) 4rem;
+}
+
+.insight-article__header h1 {
+  margin: 0.4rem 0 0.75rem;
+  font-family: "Sora", sans-serif;
+  font-weight: 800;
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  letter-spacing: -0.03em;
+  line-height: 1.08;
+}
+
+.insight-byline {
+  margin: 0 0 1rem;
+  color: var(--muted);
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 0.95rem;
+}
+
+.insight-hero {
+  margin: 1.5rem 0 2rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  border: 1px solid var(--line);
+}
+
+.insight-hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.insight-body > * + * {
+  margin-top: 1rem;
+}
+
+.insight-body h2 {
+  margin-top: 2.25rem;
+  font-family: "Sora", sans-serif;
+  font-weight: 800;
+  font-size: 1.35rem;
+  letter-spacing: -0.02em;
+}
+
+.insight-body h3 {
+  margin-top: 1.6rem;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 1.05rem;
+  color: var(--signal);
+}
+
+.insight-body ul,
+.insight-body ol {
+  padding-left: 1.25rem;
+}
+
+.insight-body li + li {
+  margin-top: 0.4rem;
+}
+
+.insight-article__footer {
+  margin-top: 2.75rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--line);
+}
+
+.insight-meta {
+  margin: 1.25rem 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}

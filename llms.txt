@@ -30,3 +30,8 @@
 - Brand guidelines (noindex): https://active-esl.com/brand/
 - Privacy: https://active-esl.com/privacy.html
 - Sitemap: https://active-esl.com/sitemap.xml
+
+## Insights
+
+- https://active-esl.com/insights/
+- https://active-esl.com/insights/not-a-harness-a-working-relationship.html
