@@ -85,6 +85,10 @@
       <span><b>Strip</b> 347 × 80 shown, 2× for sharp screens</span>
       <span><b>Weight</b> 15–39 KB</span>
     </p>
+    <div class="cta-row">
+      <a class="button ghost" href="../assets/downloads/active-esl-edge-symbol-bmp-pack.zip" download>Download Michael's BMP logo pack</a>
+    </div>
+    <p class="image-note">4096×3277 full-colour and 1-bit monochrome BMPs. Use the mono file for schematic/PCB import; the SVG remains the production master.</p>
 
     <section class="section">
       <h2>The three options</h2>
@@ -92,7 +96,7 @@
 
       <div class="variant-list">
         <article class="variant-card">
-          <h3>A · Signal Cyan tint <span class="kicker">recommended</span></h3>
+          <h3>A · Signal Cyan tint <span class="kicker">Michael's preference</span></h3>
           <p>Light and calm. Stays quiet when a thread is replied to ten times, and prints cheaply.</p>
           <span class="strip-frame">
             <img src="../assets/images/email/aesl-email-signature-strip-cyan-tint.png" width="347" height="80" alt="Active-ESL strip on a light cyan tint">
@@ -284,7 +288,7 @@
         button.addEventListener('click', function () {
           var variant = button.getAttribute('data-variant');
           strips.forEach(function (strip) {
-            strip.src = 'assets/images/email/aesl-email-signature-strip-' + variant + '.png';
+            strip.src = '../assets/images/email/aesl-email-signature-strip-' + variant + '.png';
           });
           buttons.forEach(function (other) {
             other.className = other === button ? 'button primary' : 'button ghost';
