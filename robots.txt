@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /brand/
+Disallow: /email-signature-review.html
 
 # Customer site may be indexed; brand guidelines pack must not.
 
