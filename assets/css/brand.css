@@ -1337,22 +1337,29 @@ ul.clean li::before {
   padding-top: 0;
 }
 
-.insight-card h2 {
-  margin: 0.35rem 0 0.75rem;
+/* Kept below the section heading size so a section head never reads as a link */
+.insight-card__title {
+  margin: 0.35rem 0 0.6rem;
   font-family: "Sora", sans-serif;
   font-weight: 800;
-  font-size: clamp(1.4rem, 2.4vw, 1.85rem);
-  letter-spacing: -0.02em;
-  line-height: 1.2;
+  font-size: clamp(1.15rem, 1.8vw, 1.45rem);
+  letter-spacing: -0.015em;
+  line-height: 1.25;
+  text-transform: none;
 }
 
-.insight-card h2 a {
+.insight-card__title a {
   color: var(--cloud);
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: rgba(32, 214, 210, 0.5);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.18em;
 }
 
-.insight-card h2 a:hover {
+.insight-card__title a:hover,
+.insight-card__title a:focus-visible {
   color: var(--signal);
+  text-decoration-color: var(--signal);
 }
 
 .insight-card__meta {
