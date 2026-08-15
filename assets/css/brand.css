@@ -1439,3 +1439,27 @@ ul.clean li::before {
   color: var(--muted);
   font-size: 0.9rem;
 }
+
+/* Review host banner (hostname-gated in site.js) */
+.review-banner {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 0.65rem var(--pad, 1.25rem);
+  background: #7557ff;
+  color: #f7f9fc;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+  text-align: center;
+  border-bottom: 1px solid rgba(247, 249, 252, 0.25);
+}
+
+.review-banner a {
+  color: #b6f23b;
+  font-weight: 500;
+}
+
+html.has-review-banner .site-header {
+  top: 0;
+}

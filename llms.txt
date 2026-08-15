@@ -1,4 +1,4 @@
-# Active-ESL
+# Active-Edge
 
 > Application-ready connected embedded platforms. Build your application, not your platform.
 
