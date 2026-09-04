@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="627" viewBox="0 0 1200 627" role="img" aria-labelledby="title desc">
+  <title id="title">Mostly correct</title>
+  <desc id="desc">Active-Edge Insight: a field note on people, tools and uncertainty.</desc>
+  <defs>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#20D6D2"/><stop offset="0.58" stop-color="#7557FF"/><stop offset="1" stop-color="#B6F23B"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="627" fill="#07111F"/>
+  <circle cx="1130" cy="-30" r="330" fill="#20D6D2" opacity="0.07"/>
+  <circle cx="40" cy="650" r="290" fill="#7557FF" opacity="0.09"/>
+  <path d="M930 120l132 132-132 132-132-132z" fill="none" stroke="url(#signal)" stroke-width="8" opacity="0.82"/>
+  <path d="M853 174c54-49 165-42 217 8M853 333c58 48 167 43 217-7" fill="none" stroke="url(#signal)" stroke-width="6"/>
+  <path d="M875 218l50 44-50 44M920 218l50 44-50 44" fill="none" stroke="url(#signal)" stroke-width="12"/>
+  <path d="M848 173l12-12 12 12-12 12z" fill="#20D6D2"/><path d="M1060 327l12-12 12 12-12 12z" fill="#B6F23B"/>
+  <text x="78" y="82" fill="#20D6D2" font-family="Space Grotesk, sans-serif" font-size="22" font-weight="500" letter-spacing="4">ACTIVE-EDGE INSIGHTS</text>
+  <text x="74" y="244" fill="#F7F9FC" font-family="Sora, sans-serif" font-size="92" font-weight="800">Mostly</text>
+  <text x="74" y="337" fill="#F7F9FC" font-family="Sora, sans-serif" font-size="92" font-weight="800">correct</text>
+  <rect x="78" y="382" width="132" height="8" fill="#B6F23B"/>
+  <text x="78" y="446" fill="#C7D2DE" font-family="IBM Plex Sans, sans-serif" font-size="31">A field note on people, tools</text>
+  <text x="78" y="486" fill="#C7D2DE" font-family="IBM Plex Sans, sans-serif" font-size="31">and uncertainty.</text>
+  <text x="78" y="565" fill="#20D6D2" font-family="Space Grotesk, sans-serif" font-size="20" letter-spacing="2">EMBEDDED INTELLIGENCE. MADE REAL.</text>
+</svg>
