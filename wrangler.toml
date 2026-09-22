@@ -1,0 +1,13 @@
+# Active-Edge website — stakeholder review tip (Cloudflare Worker assets)
+#
+# Live production stays on GitHub Pages → https://active-esl.com (branch main).
+# This Worker serves the review branch tip at https://review.active-esl.com/
+#
+# Deploy: ./scripts/deploy-review.sh
+name = "active-esl-website-review"
+compatibility_date = "2026-08-15"
+account_id = "c00035fb7765f04078c67bc4b2efa9af"
+
+[assets]
+directory = "_review_site"
+not_found_handling = "404-page"

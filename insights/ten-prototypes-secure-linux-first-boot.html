@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="theme-color" content="#07111F">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ten prototypes to secure Linux in about ten minutes - Active-Edge Insights</title>
+  <meta name="description" content="How a reusable i.MX8M Mini platform turned a custom industrial gateway prototype into a rapid, secure Linux bring-up.">
+  <link rel="stylesheet" href="../assets/css/brand.css?v=20260815d">
+  <link rel="icon" href="../assets/svg/active-esl-edge-favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="../assets/images/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="../assets/images/apple-touch-icon.png">
+  <link rel="canonical" href="https://active-esl.com/insights/ten-prototypes-secure-linux-first-boot.html">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Active-Edge">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:url" content="https://active-esl.com/insights/ten-prototypes-secure-linux-first-boot.html">
+  <meta property="og:title" content="Ten prototypes to secure Linux in about ten minutes">
+  <meta property="og:description" content="A custom industrial gateway demonstrates what a reusable board, Linux and container platform buys at first bring-up.">
+  <meta property="og:image" content="https://active-esl.com/assets/images/insights/ten-prototypes-secure-linux-og.png">
+  <meta property="og:image:secure_url" content="https://active-esl.com/assets/images/insights/ten-prototypes-secure-linux-og.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="627">
+  <meta property="og:image:alt" content="Active-Edge Insight: Ten prototypes to secure Linux in about ten minutes.">
+  <meta property="article:published_time" content="2026-04-30">
+  <meta property="article:modified_time" content="2026-08-15">
+  <meta property="article:author" content="Alex Lennon">
+  <meta property="article:section" content="Industrial gateways">
+  <meta property="article:tag" content="i.MX8M Mini">
+  <meta property="article:tag" content="Yocto Linux">
+  <meta property="article:tag" content="Secure boot">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ten prototypes to secure Linux in about ten minutes">
+  <meta name="twitter:description" content="A custom gateway shows what a reusable board, Linux and container platform buys at first bring-up.">
+  <meta name="twitter:image" content="https://active-esl.com/assets/images/insights/ten-prototypes-secure-linux-og.png">
+  <meta name="twitter:image:alt" content="Active-Edge Insight: Ten prototypes to secure Linux in about ten minutes.">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://active-esl.com/insights/ten-prototypes-secure-linux-first-boot.html#article",
+  "url": "https://active-esl.com/insights/ten-prototypes-secure-linux-first-boot.html",
+  "headline": "Ten prototypes to secure Linux in about ten minutes",
+  "datePublished": "2026-04-30",
+  "dateModified": "2026-08-15",
+  "inLanguage": "en-GB",
+  "articleSection": "Industrial gateways",
+  "keywords": ["i.MX8M Mini", "Yocto Linux", "secure boot", "industrial gateway"],
+  "author": {"@type": "Person", "name": "Alex Lennon"},
+  "publisher": {
+    "@type": "Organization",
+    "name": "Active-Edge",
+    "logo": {"@type": "ImageObject", "url": "https://active-esl.com/assets/svg/active-esl-edge-symbol.svg"}
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://active-esl.com/assets/images/insights/ten-prototypes-secure-linux-og.png",
+    "width": 1200,
+    "height": 627
+  },
+  "mainEntityOfPage": "https://active-esl.com/insights/ten-prototypes-secure-linux-first-boot.html",
+  "description": "How a reusable i.MX8M Mini platform turned a custom industrial gateway prototype into a rapid, secure Linux bring-up."
+}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand-lockup" href="../index.html">
+      <img src="../assets/svg/active-esl-edge-symbol.svg" width="48" height="38" alt="">
+      <div><strong>ACTIVE-EDGE</strong><span>Embedded intelligence. Made real.</span></div>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="../index.html">Home</a>
+      <a href="../products.html">Products</a>
+      <a href="../lifecycle.html">Lifecycle Platform</a>
+      <a href="../applications.html">Applications</a>
+      <a href="index.html" aria-current="page">Insights</a>
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+  </header>
+  <main id="main">
+    <article class="insight-article">
+      <header class="insight-article__header">
+        <p class="breadcrumb"><a href="../index.html">Home</a> / <a href="index.html">Insights</a> / Gateway first boot</p>
+        <p class="kicker">Insights · 30th April 2026</p>
+        <h1>Ten prototypes to secure Linux in about ten minutes.</h1>
+        <p class="insight-byline">Alex Lennon · Active-Edge</p>
+        <p class="lede">The first boot of a custom board is where reusable platform work either pays back or turns out to have been a slide. This industrial gateway came up on our maintained Linux path almost immediately.</p>
+        <aside class="insight-provenance">
+          <strong>From the archive</strong>
+          <span>Originally published on LinkedIn on <time datetime="2026-04-30">30th April 2026</time>. Adapted for Active-Edge Insights on <time datetime="2026-08-15">15th August 2026</time>.</span>
+          <a href="https://www.linkedin.com/posts/alexjlennon_embedded-iot-yocto-activity-7455549635466719232--80b" target="_blank" rel="noopener noreferrer">View the original LinkedIn post</a>
+        </aside>
+      </header>
+      <figure class="insight-hero insight-hero--portrait">
+        <img src="../assets/images/insights/industrial-gateway-prototype-768.webp"
+             srcset="../assets/images/insights/industrial-gateway-prototype-480.webp 480w, ../assets/images/insights/industrial-gateway-prototype-768.webp 768w"
+             sizes="(max-width: 760px) calc(100vw - 2.5rem), 38rem"
+             width="768" height="1024" fetchpriority="high"
+             alt="Working Active-Edge i.MX8M Mini industrial gateway prototype connected on the hardware bench">
+      </figure>
+      <div class="insight-body">
+        <p>This was a result I was genuinely proud to share: a new industrial gateway focused on CAN, mobile connectivity and audio, built as a fast response to a customer need.</p>
+
+        <h2>Custom did not mean starting again</h2>
+        <p>The board was a modification of our core NXP i.MX8M Mini platform. That distinction matters. The interfaces and layout changed for the programme, but the processor architecture, board-software knowledge, secure delivery path and application pattern already existed.</p>
+        <p>We produced ten prototypes. Within about ten minutes of starting the software bring-up we had flashed our customised Foundries.io Yocto Linux image. The board booted, the NXP IW612 wireless component came to life and the device registered with the Foundries platform.</p>
+
+        <h2>The application had already moved</h2>
+        <p>The customer application was not waiting for the custom PCB. It had already been ported into a Docker environment and exercised on our standard evaluation platform. When the new hardware arrived, the application layer and the platform layer met rather than beginning together from zero.</p>
+        <p>That separation is one of the practical reasons to use containers on embedded Linux. It does not eliminate hardware dependencies, but it allows useful application work to proceed while the programme-specific board is being manufactured.</p>
+
+        <h2>Security was part of the image</h2>
+        <p>The software path included secure boot and security-focused over-the-air delivery, designed toward UK RED and Cyber Resilience Act requirements. Those concerns were not deferred until after the prototype worked.</p>
+        <p>A product that connects to the internet needs a controlled way to establish what is running, deliver fixes and maintain evidence across its lifetime. Building that into the platform makes it available to the custom variant from its first useful boot.</p>
+
+        <h2>What the ten minutes really represented</h2>
+        <p>The ten-minute result was not ten minutes of engineering. It was the visible return on more than five years of platform work: board support, build infrastructure, update delivery, container patterns and the discipline to reuse them.</p>
+        <p>That is the commercial point of a reusable embedded platform. It is not that every product becomes identical. It is that programme-specific engineering starts from a foundation that has already earned trust.</p>
+      </div>
+      <footer class="insight-article__footer">
+        <div class="insight-share" aria-labelledby="share-heading">
+          <p class="kicker" id="share-heading">Share this Insight</p>
+          <p>Share the canonical article link with its Active-Edge preview card.</p>
+          <div class="cta-row">
+            <a class="button primary" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Factive-esl.com%2Finsights%2Ften-prototypes-secure-linux-first-boot.html" target="_blank" rel="noopener noreferrer">Share on LinkedIn</a>
+            <button class="button ghost copy-link" type="button" data-copy-url="https://active-esl.com/insights/ten-prototypes-secure-linux-first-boot.html">Copy link</button>
+          </div>
+          <p class="copy-link__status" role="status" aria-live="polite"></p>
+        </div>
+        <div class="cta-row">
+          <a class="button primary" href="https://calendly.com/alex-lennon-active-esl/30min" target="_blank" rel="noopener noreferrer">Discuss your product programme</a>
+          <a class="button ghost" href="index.html">All Insights</a>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <footer class="customer-footer">
+    <div class="customer-footer__links">
+      <a href="../products.html">Products</a><a href="../lifecycle.html">Lifecycle Platform</a>
+      <a href="../applications.html">Applications</a><a href="index.html">Insights</a>
+      <a href="../about.html">About</a><a href="../contact.html">Contact</a><a href="../privacy.html">Privacy</a>
+    </div>
+    <p class="customer-footer__legal">Active-Edge (AESL) is the customer-facing brand of Active Edge Solutions Ltd.<br>
+Company number 14105473.<br>
+Registered office: Units 15–17 Liberty House, Greenham Business Park, Greenham, Thatcham, England, RG19 6HS.<br>
+Email: <a href="mailto:info@active-esl.com">info@active-esl.com</a></p>
+    <p><a href="#top">Back to top</a></p>
+  </footer>
+  <script src="../assets/js/site.js" defer></script>
+</body>
+</html>
