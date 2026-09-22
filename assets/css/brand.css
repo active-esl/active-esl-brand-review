@@ -457,6 +457,16 @@ main {
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.28);
 }
 
+.page-hero--insights-index {
+  grid-template-columns: minmax(0, 48rem);
+  align-items: start;
+  padding-block: clamp(3rem, 6vw, 5rem);
+}
+
+.page-hero--insights-index .page-hero__copy {
+  max-width: 48rem;
+}
+
 .breadcrumb {
   margin-bottom: 1rem;
   font-family: "Space Grotesk", sans-serif;
