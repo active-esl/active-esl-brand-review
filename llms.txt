@@ -1,4 +1,4 @@
-# Active-ESL
+# Active-Edge
 
 > Application-ready connected embedded platforms. Build your application, not your platform.
 
@@ -34,4 +34,8 @@
 ## Insights
 
 - https://active-esl.com/insights/
+- https://active-esl.com/insights/zephyr-quality-needs-a-vendor-budget-line.html
 - https://active-esl.com/insights/not-a-harness-a-working-relationship.html
+- https://active-esl.com/insights/ten-prototypes-secure-linux-first-boot.html
+- https://active-esl.com/insights/remote-hardware-lab-product-platform.html
+- https://active-esl.com/insights/colour-eink-platform-better-bring-up.html
