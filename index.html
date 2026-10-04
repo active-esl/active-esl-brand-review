@@ -7,7 +7,8 @@
   <title>Active-Edge - Application-ready connected platforms</title>
   <meta name="description" content="Complete embedded platforms for product companies: evaluate, develop, manufacture and maintain with Active-Edge.">
   <link rel="stylesheet" href="assets/css/brand.css?v=20260815d">
-  <link rel="preload" as="image" href="assets/images/active-esl-home-platform.webp" fetchpriority="high">
+  <link rel="stylesheet" href="assets/css/hero-motion.css?v=20261004a">
+  <link rel="preload" as="image" href="assets/images/active-edge-navy-cyan-poster.jpg" fetchpriority="high">
   <link rel="icon" href="assets/svg/active-esl-edge-favicon.svg" type="image/svg+xml">
   <link rel="icon" href="assets/images/favicon-32.png" sizes="32x32" type="image/png">
   <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
@@ -79,12 +80,11 @@
 }
   </script>
 </head>
-<body>
+<body class="home-motion" id="top">
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <a class="brand-lockup" href="#top">
-      <img src="assets/svg/active-esl-edge-symbol.svg" width="48" height="38" alt="Active-Edge">
-      <div><strong>ACTIVE-EDGE</strong><span>Embedded intelligence. Made real.</span></div>
+      <img src="assets/images/active-edge-primary-lockup.png" width="1840" height="480" alt="Active-Edge Solutions">
     </a>
     <nav class="nav" aria-label="Primary">
       <a href="index.html" aria-current="page">Home</a>
@@ -97,27 +97,24 @@
   </header>
 
   <main id="main">
-    <section class="customer-hero">
-      <div class="customer-hero__copy">
-        <p class="kicker">Application-ready connected platforms</p>
-        <h1>Build your application, not your platform.</h1>
-        <p class="lede">
-          Start with a complete connected board and embedded Linux ready to
-          run. Develop your application, take the same design into manufacture,
-          and keep deployed products supported with the Active-Edge Lifecycle
-          Platform.
-        </p>
+    <section class="motion-hero" aria-labelledby="hero-heading">
+      <div class="motion-hero__visual" aria-hidden="true">
+        <img src="assets/images/active-edge-navy-cyan-poster.jpg" width="1280" height="720" fetchpriority="high" alt="">
+        <video id="motion" muted loop playsinline preload="none" poster="assets/images/active-edge-navy-cyan-poster.jpg" tabindex="-1"></video>
+      </div>
+      <div class="motion-hero__shade" aria-hidden="true"></div>
+      <div class="motion-hero__copy">
+        <p class="kicker">Hardware · Software · Manufacture</p>
+        <h1 id="hero-heading">Embedded<br>intelligence.<br><span>Made real.</span></h1>
+        <p class="motion-hero__lead">Build your application,<br>not your platform.</p>
         <div class="cta-row">
-          <a class="button primary" href="https://calendly.com/gary-turner-active-esl/30min" target="_blank" rel="noopener noreferrer">Discuss your product programme</a>
-          <a class="button ghost" href="products.html">Explore the platforms</a>
+          <a class="button primary" href="products.html">Explore our platforms <span aria-hidden="true">↗</span></a>
+          <a class="button ghost" href="https://calendly.com/gary-turner-active-esl/30min" target="_blank" rel="noopener noreferrer">Let’s talk</a>
         </div>
       </div>
-      <div class="customer-hero__visual">
-        <img src="assets/images/active-esl-home-platform.webp"
-             srcset="assets/images/active-esl-home-platform-480.webp 480w, assets/images/active-esl-home-platform.webp 960w"
-             sizes="(max-width: 760px) calc(100vw - 2.5rem), 42vw"
-             width="960" height="640" fetchpriority="high"
-             alt="Active-Edge embedded edge platform">
+      <div class="motion-hero__bottom">
+        <span>From connected-device prototype to volume product.</span>
+        <button id="motion-toggle" type="button" aria-pressed="false" hidden>Play background</button>
       </div>
     </section>
 
@@ -229,5 +226,6 @@ Email: <a href="mailto:info@active-esl.com">info@active-esl.com</a></p>
 <p><a href="#top">Back to top</a></p>
     </footer>
 <script src="assets/js/site.js" defer></script>
+<script src="assets/js/hero-motion.js?v=20261004a" defer></script>
 </body>
 </html>
